@@ -1,0 +1,557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Supplier Order Email\n"
+"POT-Creation-Date: 2022-10-11 11:19+0200\n"
+"PO-Revision-Date: 2022-10-11 11:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: Mci Desarrollo\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: supplier-order-email.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/mcisoe_admin.php:20
+msgid ""
+"Plugin \"Supplier Order Email\" requires WooCommerce to work correctly. "
+"Please install and activate \"WooCommerce\"."
+msgstr ""
+"El plugin \"Supplier Order Email\" requiere que WooCommerce funcione "
+"correctamente. Instale y active \"WooCommerce\"."
+
+#: admin/mcisoe_admin.php:65
+msgid "Before you start working with 'Supplier Order Email' plugin"
+msgstr "Antes de empezar a trabajar con el plugin 'Supplier Order Email'"
+
+#: admin/mcisoe_admin.php:67
+msgid "you must create the Suppliers"
+msgstr "debes crear los Proveedores"
+
+#: admin/mcisoe_admin.php:71
+msgid "Create \"Suppliers\" now in Products->Suppliers"
+msgstr "Crear \"Proveedores\" ahora en Productos->Proveedores"
+
+#: admin/partials/mcisoe_btn_order_list.php:22
+msgid "Send order email to supplier manually"
+msgstr "Enviar email de pedido al proveedor manualmente"
+
+#: admin/partials/mcisoe_btn_order_list.php:40
+msgid "The order email has been sent to the suppliers."
+msgstr "El email de pedido se ha enviado a los proveedores."
+
+#: admin/partials/mcisoe_btn_order_list.php:44
+msgid "There was an error sending the order to the suppliers."
+msgstr "Ha habido un error al enviar el pedido a los proveedores."
+
+#: admin/partials/mcisoe_get_panel.php:12
+msgid "Do you want the Premium version? "
+msgstr "¿Quieres la versión Premium? "
+
+#: admin/partials/mcisoe_get_panel.php:14
+msgid "Get a 30-day free trial here."
+msgstr "Obtener una prueba gratis de 30 días aquí."
+
+#: admin/partials/mcisoe_get_panel.php:18
+msgid "Do you need changes in the plugin? Send us an email to"
+msgstr "¿Necesitas cambios en el plugin? Envíanos un email a"
+
+#: admin/partials/mcisoe_get_panel.php:20
+msgid "and we will send you a quote."
+msgstr "y te enviaremos un presupuesto."
+
+#: admin/partials/mcisoe_get_panel.php:24
+msgid "Thanks for using our plugin. "
+msgstr "Gracias por usar nuestro plugin. "
+
+#: admin/partials/mcisoe_get_panel.php:26
+msgid "You will be collaborating to maintain it if you value  "
+msgstr "Estarás colaborando para mantenerlo si lo valoras  "
+
+#: admin/partials/mcisoe_get_panel.php:40
+msgid "SUPPLIER"
+msgstr "PROVEEDOR"
+
+#: admin/partials/mcisoe_get_panel.php:41
+msgid "EMAIL"
+msgstr "EMAIL"
+
+#: admin/partials/mcisoe_get_panel.php:43
+msgid "SUPPLIER CUSTOM TEXT"
+msgstr "TEXTO PERSONALIZADO DEL PROVEEDOR {supplier_custom_text}"
+
+#: admin/partials/mcisoe_get_panel.php:60
+msgid "There are no suppliers created yet. Create new suppliers in"
+msgstr "Todavía no hay proveedores creados. Crear nuevos proveedores en"
+
+#: admin/partials/mcisoe_get_panel.php:63
+#: admin/partials/mcisoe_get_panel.php:297 admin/partials/mcisoe_help.php:20
+msgid "Products / Suppliers"
+msgstr "Productos / Proveedores"
+
+#: admin/partials/mcisoe_get_panel.php:70
+msgid "To add new Suppliers, edit or delete them"
+msgstr "Para añadir nuevos proveedores, editarlos o eliminarlos"
+
+#: admin/partials/mcisoe_get_panel.php:73
+msgid "Go to Suppliers"
+msgstr "Ir a Proveedores"
+
+#: admin/partials/mcisoe_get_panel.php:83
+msgid "Email subject"
+msgstr "Asunto del email"
+
+#: admin/partials/mcisoe_get_panel.php:86
+#: admin/partials/mcisoe_get_panel.php:96
+msgid "Optional tags: {order_number} {order_date} {supplier_custom_text}"
+msgstr ""
+"Etiquetas opcionales: {order_number} {order_date} {supplier_custom_text}"
+
+#: admin/partials/mcisoe_get_panel.php:93
+msgid "Email introductory text"
+msgstr "Texto introductorio del email"
+
+#: admin/partials/mcisoe_get_panel.php:102
+msgid "General options"
+msgstr "Opciones generales"
+
+#: admin/partials/mcisoe_get_panel.php:107
+msgid "Send copy of emails to admin when send emails to suppliers"
+msgstr ""
+"Enviar copia de emails al administrador cuando se envían emails a proveedores"
+
+#: admin/partials/mcisoe_get_panel.php:113
+msgid ""
+"Use the customer´s billing address if the order does not have a shipping "
+"address"
+msgstr ""
+"Usar la dirección de facturación del cliente si el pedido no tiene una "
+"dirección de envío"
+
+#: admin/partials/mcisoe_get_panel.php:119
+msgid "Delete all data when uninstall the plugin"
+msgstr "Eliminar todos los datos al desinstalar el plugin"
+
+#: admin/partials/mcisoe_get_panel.php:123
+msgid "Order options in emails"
+msgstr "Opciones de pedido en emails"
+
+#: admin/partials/mcisoe_get_panel.php:130
+msgid "Headers color"
+msgstr "Color encabezados"
+
+#: admin/partials/mcisoe_get_panel.php:136
+msgid "Show store logo instead of header text"
+msgstr "Mostrar el logo de la tienda en vez del encabezado de texto"
+
+#: admin/partials/mcisoe_get_panel.php:143
+msgid "Show order number"
+msgstr "Mostrar número de pedido"
+
+#: admin/partials/mcisoe_get_panel.php:150
+msgid "Show customer email"
+msgstr "Mostrar email del cliente"
+
+#: admin/partials/mcisoe_get_panel.php:157
+msgid "Show customer phone"
+msgstr "Mostrar teléfono del cliente"
+
+#: admin/partials/mcisoe_get_panel.php:164
+msgid "Show customer notes"
+msgstr "Mostrar notas del cliente"
+
+#: admin/partials/mcisoe_get_panel.php:171
+msgid "Show total price"
+msgstr "Mostrar precio total"
+
+#: admin/partials/mcisoe_get_panel.php:178
+msgid "Show payment method"
+msgstr "Mostrar método de pago"
+
+#: admin/partials/mcisoe_get_panel.php:185
+msgid "Show shipping method"
+msgstr "Mostrar método de envío"
+
+#: admin/partials/mcisoe_get_panel.php:193
+msgid "Show cost total"
+msgstr "Mostrar coste total"
+
+#: admin/partials/mcisoe_get_panel.php:201
+msgid "Hide all customer data"
+msgstr "Ocultar todos los datos de cliente"
+
+#: admin/partials/mcisoe_get_panel.php:206
+msgid "Show Product List fields"
+msgstr "Mostrar campos de lista de productos"
+
+#: admin/partials/mcisoe_get_panel.php:212
+msgid "Short description"
+msgstr "Descripción corta"
+
+#: admin/partials/mcisoe_get_panel.php:219
+#: includes/email/template-parts/mcisoe_table_header.php:29
+msgid "Price"
+msgstr "Precio"
+
+#: admin/partials/mcisoe_get_panel.php:227
+msgid "Cost price"
+msgstr "Precio de coste"
+
+#: admin/partials/mcisoe_get_panel.php:235
+msgid ""
+"EAN number - Compatible with the plugin \"Product GTIN (EAN, UPC, ISBN) for "
+"WooCommerce\""
+msgstr ""
+"Número EAN - Compatible con el plugin \"Product GTIN (EAN, UPC, ISBN) for "
+"WooCommerce\""
+
+#: admin/partials/mcisoe_get_panel.php:242
+msgid "Attributes"
+msgstr "Atributos"
+
+#: admin/partials/mcisoe_get_panel.php:249
+msgid "Variations and meta custom fields"
+msgstr "Variaciones y campos meta personalizados"
+
+#: admin/partials/mcisoe_get_panel.php:257
+msgid "Save"
+msgstr "Guardar"
+
+#: admin/partials/mcisoe_get_panel.php:264
+msgid "Premium registration email:"
+msgstr "Email de registro premium:"
+
+#: admin/partials/mcisoe_get_panel.php:269
+msgid "License key"
+msgstr "Clave de licencia"
+
+#: admin/partials/mcisoe_get_panel.php:273
+msgid "Activate premium"
+msgstr "Activar Premium"
+
+#: admin/partials/mcisoe_get_panel.php:276 admin/partials/mcisoe_help.php:61
+msgid "Get 30 days free trial Pro"
+msgstr "Obtener prueba gratuita Pro de 30 días"
+
+#: admin/partials/mcisoe_get_panel.php:278
+msgid "Show email field for old registrations"
+msgstr "Mostrar campo de email para registros antiguos"
+
+#: admin/partials/mcisoe_get_panel.php:281
+msgid "&#10687; PREMIUM VERSION IS ACTIVE"
+msgstr "&#10687; VERSIÓN PREMIUM ACTIVA"
+
+#: admin/partials/mcisoe_get_panel.php:283
+msgid ""
+"If you are no longer going to use the Premium options of the plugin in this "
+"WooCommerce installation, you can deactivate licenses to reduce the limit of "
+"your premium plan so that you can use it on other websites. You can always "
+"reactivate it with your License Key."
+msgstr ""
+"Si ya no vas a utilizar las opciones Premium del plugin en esta instalación "
+"de WooCommerce, puedes desactivar licencias para reducir el límite de tu "
+"plan premium para que puedas usarlo en otros sitios web. Siempre puedes "
+"reactivarlo con tu clave de licencia."
+
+#: admin/partials/mcisoe_get_panel.php:284
+msgid "Deactivate premium license on this website"
+msgstr "Desactivar licencia premium en este sitio web"
+
+#: admin/partials/mcisoe_get_panel.php:296
+msgid "Create new suppliers in: "
+msgstr "Crear nuevos proveedores en: "
+
+#: admin/partials/mcisoe_get_panel.php:299
+msgid ""
+"Select the supplier of the products in a new selection box that appears when "
+"editing each product."
+msgstr ""
+"Selecciona el proveedor de los productos en un nuevo cuadro de selección que "
+"aparece al editar cada producto."
+
+#: admin/partials/mcisoe_get_panel.php:301 admin/partials/mcisoe_help.php:37
+msgid ""
+"When an order changes to \"Processing\" status, an automatic order email is "
+"sent to the supplier to send the corresponding products to the customer."
+msgstr ""
+"Cuando un pedido cambia al estado \"Procesando\", se envía un email de "
+"pedido automático al proveedor para que envíe los productos correspondientes "
+"al comprador."
+
+#: admin/partials/mcisoe_get_panel.php:306 admin/partials/mcisoe_help.php:83
+msgid "View Supplier Order Email Manual"
+msgstr "Ver manual de Supplier Order Email"
+
+#: admin/partials/mcisoe_get_panel.php:312
+msgid "Rate our plugin"
+msgstr "Valora nuestro plugin"
+
+#: admin/partials/mcisoe_help.php:16
+msgid "How to configure the plugin"
+msgstr "Cómo configurar el plugin"
+
+#: admin/partials/mcisoe_help.php:18
+msgid "Create new suppliers in"
+msgstr "Crear nuevos proveedores en"
+
+#: admin/partials/mcisoe_help.php:25
+msgid "Select the supplier of the products"
+msgstr "Selecciona el proveedor de los productos"
+
+#: admin/partials/mcisoe_help.php:27
+msgid ""
+"when editing each one in a new selection box \"Suppliers\" that appears."
+msgstr ""
+"al editar cada uno en un nuevo cuadro de selección \"Proveedores\" que "
+"aparece."
+
+#: admin/partials/mcisoe_help.php:30
+msgid "Set your preferences in"
+msgstr "Configura tus preferencias en"
+
+#. Plugin Name of the plugin/theme
+#: admin/partials/mcisoe_help.php:31 admin/partials/mcisoe_wp_menu.php:21
+msgid "Supplier Order Email"
+msgstr "Supplier Order Email"
+
+#: admin/partials/mcisoe_help.php:33
+msgid "Settings page"
+msgstr "Página de ajustes"
+
+#: admin/partials/mcisoe_help.php:44
+msgid "Premium plugin features"
+msgstr "Características del plugin premium"
+
+#: admin/partials/mcisoe_help.php:47
+msgid "Extra options:"
+msgstr "Opciones extra:"
+
+#: admin/partials/mcisoe_help.php:51 admin/partials/mcisoe_help.php:70
+msgid "WordPress forum support."
+msgstr "Soporte en foro de WordPress."
+
+#: admin/partials/mcisoe_help.php:56
+msgid "Email support."
+msgstr "Soporte por correo electrónico."
+
+#: admin/partials/mcisoe_help.php:65
+msgid "Free plugin features"
+msgstr "Características gratuitas del plugin"
+
+#: admin/partials/mcisoe_help.php:81
+msgid ""
+"By clicking on the button you can access the complete documentation of the "
+"plugin."
+msgstr ""
+"Haciendo clic en el botón puedes acceder a la documentación completa del "
+"plugin."
+
+#: admin/partials/mcisoe_product_list_filter.php:16
+msgid "All Suppliers"
+msgstr "Todos los proveedores"
+
+#: admin/partials/mcisoe_wc_import_export.php:11
+#: admin/partials/mcisoe_wc_import_export.php:42
+msgid "Supplier"
+msgstr "Proveedor"
+
+#: admin/partials/mcisoe_wp_menu.php:31
+msgid "Suppliers"
+msgstr "Proveedores"
+
+#: admin/partials/mcisoe_wp_menu.php:41
+msgid "Help"
+msgstr "Ayuda"
+
+#: helpers/mcisoe_helpers.php:12
+msgid "Premium version"
+msgstr "Versión Premium"
+
+#: includes/check_premium/mcisoe_check_lemon.php:136
+msgid "The premium features of the plugin have been successfully disabled."
+msgstr ""
+"Las características premium del plugin se han desactivado satisfactoriamente."
+
+#: includes/check_premium/mcisoe_check_premium.php:47
+msgid "The Premium plugin is activated. "
+msgstr "El plugin Premium está activado. "
+
+#: includes/check_premium/mcisoe_check_premium.php:52
+msgid "The Premium plugin is disabled. "
+msgstr "El plugin Premium está desactivado. "
+
+#: includes/email/mcisoe_customer_data.php:72
+msgid "Order number:"
+msgstr "Número de pedido:"
+
+#: includes/email/mcisoe_customer_data.php:95
+msgid ""
+"The shipping address are empty because the order has no address. Contact us "
+"to solve it."
+msgstr ""
+"La dirección de envío está vacía porque el pedido no tiene dirección. "
+"Contacta con nosotros para solucionarlo."
+
+#: includes/email/mcisoe_customer_data.php:138
+msgid "Note:"
+msgstr "Nota:"
+
+#: includes/email/mcisoe_customer_data.php:151
+msgid "Delivery date:"
+msgstr "Fecha de entrega:"
+
+#: includes/email/mcisoe_master_email.php:91
+msgid "Email sent to the supplier"
+msgstr "Email enviado al proveedor"
+
+#: includes/email/mcisoe_master_email.php:92
+msgid "An order email has been sent to the supplier."
+msgstr "Se ha enviado un email de pedido al proveedor."
+
+#: includes/email/mcisoe_master_email.php:93
+msgid "This is a copy of the email sent to"
+msgstr "Esta es una copia del email enviado a"
+
+#: includes/email/mcisoe_totals.php:29
+msgid "Total"
+msgstr "Total"
+
+#: includes/email/mcisoe_totals.php:41
+#: includes/email/template-parts/mcisoe_table_header.php:26
+msgid "Cost"
+msgstr "Coste"
+
+#: includes/email/mcisoe_totals.php:56
+msgid "Payment method"
+msgstr "Método de pago"
+
+#: includes/email/mcisoe_totals.php:69
+msgid "Shipping method"
+msgstr "Método de envío"
+
+#: includes/email/template-parts/mcisoe_email_customer_data.php:15
+msgid "Send the order to:"
+msgstr "Enviar el pedido a:"
+
+#: includes/email/template-parts/mcisoe_email_footer.php:15
+msgid "Thanks"
+msgstr "Gracias"
+
+#: includes/email/template-parts/mcisoe_table_header.php:18
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/email/template-parts/mcisoe_table_header.php:19
+msgid "Reference"
+msgstr "Referencia"
+
+#: includes/email/template-parts/mcisoe_table_header.php:20
+msgid "Product"
+msgstr "Producto"
+
+#: includes/email/template-parts/mcisoe_table_header.php:23
+msgid "EAN"
+msgstr "EAN"
+
+#: includes/mcisoe_convert_old_db.php:24
+msgid ""
+"\"Supplier Order Email\" plugin options have been successfully converted to "
+"the latest database version 2.0"
+msgstr ""
+"Las opciones del plugin \"Supplier Order Email\" se han convertido con éxito "
+"a la última versión de la base de datos 2.0"
+
+#: includes/mcisoe_convert_old_db.php:30
+msgid ""
+"The old options from the \"Supplier Order Email\" plugin could not be "
+"imported into the new database format because the mcisoe_options table does "
+"not exist or is empty. Default options have been activated. Please check the "
+"plugin configuration options."
+msgstr ""
+"Las opciones antiguas del plugin \"Supplier Order Email\" no se pudieron "
+"importar al nuevo formato de base de datos porque la tabla de mcisoe_options "
+"no existe o está vacía. Se han activado las opciones predeterminadas. Por "
+"favor, compruebe las opciones de configuración del plugin."
+
+#: includes/mcisoe_convert_old_db.php:83
+msgid ""
+"Suppliers and emails of \"Supplier Order Email\" plugin have been "
+"successfully converted to the latest database system version 2.0"
+msgstr ""
+"Los proveedores y los correos electrónicos del plugin \"Supplier Order Email"
+"\" se han convertido con éxito a la última versión 2.0 del sistema de base "
+"de datos"
+
+#: includes/mcisoe_convert_old_db.php:89
+msgid ""
+"The old suppliers and emails from the \"Supplier order email\" plugin could "
+"not be imported into the new database format because the mcisoe_options "
+"table does not exist. Default options have been activated. Please check "
+"suppliers."
+msgstr ""
+"Los proveedores antiguos y los emails del plugin \"Supplier Order Email\" no "
+"se pudieron importar al nuevo formato de base de datos porque la tabla de "
+"mcisoe_options no existe. Se han activado las opciones predeterminadas. Por "
+"favor, compruebe los proveedores."
+
+#: public/partials/mcisoe_wp_taxonomy.php:17
+msgid "Supplier Email"
+msgstr "Email del Proveedor"
+
+#: public/partials/mcisoe_wp_taxonomy.php:18
+msgid "Email address of the supplier."
+msgstr "Dirección de email del proveedor."
+
+#: public/partials/mcisoe_wp_taxonomy.php:19
+msgid "Supplier custom text (optional)"
+msgstr "Texto personalizado del proveedor (opcional)"
+
+#: public/partials/mcisoe_wp_taxonomy.php:20
+msgid ""
+"This {supplier_custom_text} can be used in the subject and the introductory "
+"text of the email and is unique for each supplier."
+msgstr ""
+"Este {supplier_custom_text} se puede utilizar en el asunto y el texto "
+"introductorio del email y es único para cada proveedor."
+
+#: public/partials/mcisoe_wp_taxonomy.php:86
+msgid "To configure the \"Supplier Order Email\" plugin settings"
+msgstr "Para configurar los ajustes del plugin \"Supplier Order Email\""
+
+#: public/partials/mcisoe_wp_taxonomy.php:88
+msgid "Go to 'Supplier Order Email' settings"
+msgstr "Ir a configuración de 'Supplier Order Email'"
+
+#. Plugin URI of the plugin/theme
+msgid "https://mci-desarrollo.es/supplier-order-email-premium"
+msgstr "https://mci-desarrollo.es/supplier-order-email-premium"
+
+#. Description of the plugin/theme
+msgid ""
+"Sends automatic order emails to the suppliers to send the corresponding "
+"products to the customer. The mail is sent when the order goes to the "
+"\"Processing\" status."
+msgstr ""
+"Envía emails automáticos del pedido a los proveedores para que envíen los "
+"productos correspondientes al comprador. El email se envía cuando el pedido "
+"pasa al estado «Procesando»."
+
+#. Author of the plugin/theme
+msgid "MCI Desarrollo"
+msgstr "MCI Desarrollo"
+
+#. Author URI of the plugin/theme
+msgid "https://mci-desarrollo.es"
+msgstr "https://mci-desarrollo.es"
+
+#~ msgid "Options in the product list (Show)"
+#~ msgstr "Opciones en la lista de productos (Mostrar)"

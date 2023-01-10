@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+      
+<head>
+    <title>
+        jQuery UI | Date Picker
+    </title>
+      
+    <link href=
+'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
+          rel='stylesheet'>
+      
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" >
+    </script>
+      
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" >
+    </script>
+</head>
+  
+<body>
+    <div class="someone_date_picker"></div>
+   
+    <script>
+
+
+        jQuery(document).ready(function() { 
+
+            function ss_mindate(){
+        var my_array = my_ajax_object.getfuture_date;
+        
+
+        var nextDay = new Date();
+
+        var createddate =  nextDay.setDate(nextDay.getDate() + 14);
+
+        createddate = new Date(createddate);
+
+        // console.log(createddate);
+
+        var createddate1 = createddate.getDay();
+        var createddate1_getmonth = createddate.getMonth();
+        var createddate1_getyear = createddate.getFullYear();
+
+        var formatefuturedate = createddate1+'/'+createddate1_getmonth+'/'+createddate1_getyear;
+
+
+       const addarray = jQuery.inArray(formatefuturedate,my_array) ? 1 : 0;
+        switch (createddate1) {
+            case 6:
+               addnumber = 2;
+                break;
+            case 0:
+                addnumber = 1;
+                break;
+            case 1:
+                addnumber = 0;
+                break;
+        
+            default:
+                break;
+        }
+
+        if( createddate1 > 1 && createddate1 < 6 ){
+            return "+14d";
+        }else{
+            var  nextdate = 14 + addnumber + addarray;
+        //    console.log(nextdate)
+            return "+"+nextdate+"d";
+        }
+    }
+
+
+            // console.log(my_ajax_object.getfuture_date);
+            // ss_mindate();
+        var minDate_ = ss_mindate();
+
+        var currentDate = new Date();
+        var disablecalendar =  currentDate.setDate(currentDate.getDate() + 106);
+
+        disableDate = new Date(disablecalendar);
+
+            jQuery(".someone_date_picker").datepicker({
+            beforeShowDay: my_check,
+               minDate: minDate_,
+               maxDate: new Date(disableDate.getFullYear(), disableDate.getMonth() , disableDate.getDate()),
+              
+            //   minDate: "+15d"
+            });
+            ////////
+            function my_check(in_date) {
+                in_date_one = in_date.getDate() + '/' + (in_date.getMonth() + 1) + '/' + in_date.getFullYear();
+                // console.log(in_date_one);
+                var my_array = my_ajax_object.getfuture_date;
+                // console.log(my_array);
+                // var day = in_date.getDay();
+                checknullArr = my_array != null ? my_array : [];
+                // if (my_array == null) {
+                //     my_array = [];
+                // }
+            if (checknullArr.indexOf(in_date_one) >= 0 || ( in_date.getDay() <= 1 || in_date.getDay() > 5 ) ) {
+                    return [false, "notav", 'Not Available'];
+                } else {
+                    return [true, "av", "available"];
+                }
+            }
+        });
+
+    </script>
+</body>
+  
+</html>

@@ -1,0 +1,105 @@
+/* SUPPLIER ORDER EMAIL Help CSS */
+
+.mcisoe_green_icon img {
+  color: #008000;
+}
+
+.mcisoe_h_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 15px;
+}
+
+@media (max-width: 768px) {
+  .mcisoe_h_container {
+    grid-template-columns: 1fr;
+  }
+  .mcisoe_h_card.mcisoe_box_1 {
+    grid-column-end: 2 !important;
+  }
+}
+
+.mcisoe_h_card ol {
+  margin-top: 25px;
+}
+.mcisoe_h_card ol li {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.mcisoe_box_2 h3,
+.mcisoe_box_3 h3 {
+  margin-bottom: 25px;
+}
+.mcisoe_h_card a {
+  text-decoration: none;
+}
+.mcisoe_h_card {
+  background-color: #fff;
+  padding: 20px 30px 50px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.mcisoe_h_card.mcisoe_box_1 {
+  padding: 20px 30px 30px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.mcisoe_h_card.mcisoe_box_4 {
+  padding: 20px 30px 30px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.mcisoe_h_card ul {
+  margin-left: 15px;
+}
+.mcisoe_h_card .mcisoe_btn {
+  text-align: center;
+  max-width: 160px;
+  display: block;
+  margin: 0 auto;
+}
+.mcisoe_h_card ul li {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.mcisoe_h_card .mcisoe_icon img {
+  font-size: 14px;
+}
+.mcisoe_ul_premium_features {
+  margin-bottom: 40px;
+}
+#mcisoe_help_img {
+  margin-top: 25px;
+  box-shadow: 0 0 8px 2px #0000002e;
+}
+.mcisoe_h_card.mcisoe_box_3 ul p {
+  font-weight: 600;
+  font-size: 15px;
+  margin: 25px 0 14px;
+}
+.mcisoe_btn_manual {
+  background-color: #7e7e7e;
+  color: #fff;
+  padding: 9px 18px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: block;
+  margin: 60px auto 60px;
+  width: fit-content;
+}
+a.mcisoe_btn_manual:hover,
+a.mcisoe_btn_manual:focus {
+  color: #fff;
+  border-color: grey;
+  box-shadow: none;
+}
+.mcisoe_box_4 h3 {
+  text-align: center;
+}

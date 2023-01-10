@@ -1,0 +1,117 @@
+.someone_date_picker .ui-datepicker-inline {
+    width: 90%;
+}
+.someone_date_picker .ui-widget-header {
+       border: none !important;
+    	background: #4e062900 !important;
+	 color: #4E0629 !important;
+}
+.someone_date_picker .ui-widget-content {
+    background: #E6E6E6;
+	border: none !important;
+}
+
+.someone_date_picker .ui-state-default,.someone_date_picker .ui-widget-content .ui-state-default,.someone_date_picker .ui-widget-header .ui-state-default {
+    text-align: center;
+	font-size: 16px;
+    font-weight: 500;
+}
+.someone_date_picker .ui-state-hover {
+    border:	none !important;
+    background: transparent !important;
+} 
+.someone_date_picker .ui-state-active,.someone_date_picker .ui-widget-content .ui-state-active,.someone_date_picker .ui-widget-header .ui-state-active {
+    border: 1px solid #4E0629 !important;
+    color: #fff !important;
+    background: #4E0629 !important;
+    text-align: center !important;
+	border-radius: 5px;
+}
+/* .someone_date_picker .ui-state-default:hover {
+    color: #fff !important;
+} */
+.ui-datepicker th {
+    color: #4E0629;
+}
+
+td[data-handler="selectDay"] .ui-state-default {
+    border: none !important;
+    background: #E6E6E6 !important;
+    color: #4E0629;
+}
+.ui-datepicker .ui-datepicker-prev .ui-icon {
+    background-image: url(http://dev.prospektdigital.com/flowersdirect2022-2/wp-content/uploads/2022/10/left-chevron.png) !important;
+    background-size: contain;
+    background-repeat: initial;
+    position: relative;
+    cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-next .ui-icon {
+    background-image: url(http://dev.prospektdigital.com/flowersdirect2022-2/wp-content/uploads/2022/10/next-2.png) !important;
+    background-size: contain;
+    background-repeat: initial;
+    position: relative;
+    cursor: pointer;
+}
+td.ui-state-disabled {
+    opacity: 1 !important;
+}
+td.ui-state-disabled .ui-state-default {
+    background: #DBDBDB;
+}
+table.ui-datepicker-calendar tr td span {
+    border: none !important;
+    border-radius: 5px;
+    margin: 1px;
+    color: #4e062978 !important;
+}
+.ui-datepicker-title span {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.woocommerce-order {
+    display: flex;
+    flex-direction: column;
+}
+.woocommerce-order p.woocommerce-notice {
+    order: 1;
+}
+.woocommerce-order ul.woocommerce-order-overview {
+    order: 2;
+}
+.woocommerce h2 {
+    order: 3;
+}
+.woocommerce table.shop_table {
+    order: 4;
+}
+.woocommerce-order p:nth-child(3) {
+    order: 5;
+}
+.woocommerce-order section.woocommerce-order-details {
+    order: 6;
+}
+section.woocommerce-customer-details {
+    order: 7;
+}
+/* Mine */
+/* span#flw-selected-date {
+    display: none;
+} */
+.pp-offcanvas-inner span.woocommerce-Price-amount.amount {
+    display: inline-block !important;
+}
+.single-product span.woocommerce-Price-amount.amount {
+    display: none;
+}
+input#lname {
+    background-color: #F7F6F7;
+}
+.woocommerce-order-received ul.wc-item-meta {
+    display: none;
+}
+/**/
+.ss_new_price, h2.fl-not-avail {
+    display: none !important;
+}

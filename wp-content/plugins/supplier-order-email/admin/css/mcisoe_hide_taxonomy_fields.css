@@ -1,0 +1,8 @@
+/* CSS Styles for the Taxonomy edit and add Pages */
+
+.term-slug-wrap,
+.term-parent-wrap,
+.term-description-wrap,
+#wpseo_meta {
+  display: none;
+}

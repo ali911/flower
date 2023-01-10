@@ -1,0 +1,40 @@
+#hd_date_tb {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  #hd_date_tb td, #hd_date_tb th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #hd_date_tb tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #hd_date_tb tr:hover {background-color: #ddd;}
+  
+  #hd_date_tb th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2271b1;
+    color: white;
+  }
+  table#hd_date_tb a {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+td.ss_date_ {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+  background: no-repeat;
+  border: 1px solid #eee;
+  color: black;
+}
